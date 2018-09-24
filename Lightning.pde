@@ -5,7 +5,7 @@ void setup(){
   
 size(600,600);
 strokeWeight(1);
-  background(20);
+
 
 }// float lineWidth = .2;
 
@@ -17,7 +17,7 @@ int endY = height;
 
 
 void draw(){
-
+  background(20);
 // float n = (float)Math.random()*255;
 stroke( (float)Math.random()*200 , (float)Math.random()*255, (float)Math.random()*255);
 while(endX < width){
