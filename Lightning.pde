@@ -37,9 +37,9 @@ void mousePressed() {
    if(endY!= height || endX != width){
    endX = 0;
    endY = height;
-   n -= random(20);
-   c -= random(20);
-   s -= random(20);
+   n -= Math.random() * 20;
+   c -= Math.random() * 20;
+   s -= Math.random() * 20;
 //   if( n <= 0 & c<=0 & s <= 0 ){
  //  n = 20;
  //  c = 20;
